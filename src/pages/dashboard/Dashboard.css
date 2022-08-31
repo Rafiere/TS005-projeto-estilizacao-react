@@ -1,0 +1,19 @@
+/*
+    A utilização de arquivos externos ao CSS é altamente
+    recomendada, porém, existem outras formas que podem garantir
+    uma melhor organização do código.
+*/
+
+/* Todas as tags "p", da aplicação inteira, de arquivos que importarem esse CSS serão coloridas de preto.
+    Isso não é uma boa prática, pois consiste na aplicação de um CSS "global". */
+
+p {
+    background-color: black;
+}
+
+
+/* Apenas as tags "<p>" da aplicação que tiverem a classe "paragraph", que importarem
+esse CSS, serão afetadas. */
+.paragraph {
+    background-color: black;
+}
