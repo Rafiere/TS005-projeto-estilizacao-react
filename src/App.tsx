@@ -10,19 +10,23 @@ export const App = () => {
    * O CSS inline torna o documento HTML muito grande e a página muito pesada.
    */
 
-  useEffect(() => {
-    setInterval(() => {
-      setPadding(oldPadding => { //Estamos, a cada um segundo, somando "1" no valor do atributo "padding".
+  // useEffect(() => {
+  //   setInterval(() => {
+  //     setPadding(oldPadding => { //Estamos, a cada um segundo, somando "1" no valor do atributo "padding".
         
-        return oldPadding + 1; //Apenas o atributo "padding" será alterado.
-      })
-    }, 1000);
-  }, [])
+  //       return oldPadding + 1; //Apenas o atributo "padding" será alterado.
+  //     })
+  //   }, 1000);
+  // }, [])
 
   return (
-    <div style={{backgroundColor: 'black', color: 'white', padding: padding}}>
-      Teste
+
+    <div>
+      <p>Testando</p>
     </div>
+    // <div style={{backgroundColor: 'black', color: 'white', padding: padding}}>
+    //   Teste
+    // </div>
   );
 }
 
