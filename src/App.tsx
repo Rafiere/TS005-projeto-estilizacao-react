@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Dashboard } from './pages/dashboard/Dashboard';
 
 export const App = () => {
 
@@ -23,6 +24,7 @@ export const App = () => {
 
     <div>
       <p>Testando</p>
+      <Dashboard></Dashboard>
     </div>
     // <div style={{backgroundColor: 'black', color: 'white', padding: padding}}>
     //   Teste
